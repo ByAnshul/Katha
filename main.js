@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function splitText(text) {
         // Split into smaller parts (~120 chars per piece)
-        return text.match(/.{1,120}(\s|$)/g);
+        return text.match(/.{1,180}(\s|$)/g);
     }
 
     function speakNext() {
